@@ -4,7 +4,8 @@
 <head>
     <title>Invitation Page</title>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-	<script src="js/myscript.js"></script> 
+	<script src="js/myscript3.js"></script>
+        
 </head>
 
 <body>
@@ -26,13 +27,27 @@
 
         </nav>
     </header>
-    <section id="bannerImages">
-	Banner Images<br/>
-<img src="images/banner1.jpg" alt="Banner"/>
-<img src="images/banner2.jpg" alt="Banner"/>
-<img src="images/banner3.jpg" alt="Banner"/>
-    </section>
 
+    <!-- These div tags were created and added to each image.  Classes and id tags were also 
+    added so that the javascript and and css would link to the page creating the moving banner.
+    The image tag was moved to each div tag that corresponded to the same image.  This linked 
+    the preload function to allow the images to be loaded to the page.
+   -->
+    <div class="banner" id="banner">
+        <div class="banimg" id="banimg3">
+            <img src="img/banner3.jpg" alt="Banner"/>
+
+        </div>
+        <div class="banimg" id="banimg2">
+            <img src="img/banner2.jpg" alt="Banner"/>
+            
+        </div>
+        <div class="banimg" id="banimg1">
+            <img src="img/banner1.jpg" alt="Banner"/>
+            
+        </div>
+
+    </div>
 
     <footer>This events site is for IT-FP3215 tasks.
     </footer>
