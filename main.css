@@ -112,7 +112,7 @@ ul.topnav li.right {
     margin: auto
 }
 footer {
-    position: absolute;
+    position: bottom;
     right: 0;
     bottom: 0;
     left: 0;
@@ -123,8 +123,8 @@ footer {
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+    float: center;
+    width: 300px;
 }
 
 div.gallery:hover {
@@ -183,4 +183,3 @@ div.desc {
     background-position: center;
     background-repeat: no-repeat;
 }
-
