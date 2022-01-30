@@ -4,7 +4,7 @@
 <head>
     <title>Invitation Page</title>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-	<script src="js/myscript.js"></script> 
+	<script src="js/myscript3.js"></script> 
 </head>
 
 <body>
@@ -29,36 +29,49 @@
     <section id="gallery">
 
 <div class="gallery">
-  <a target="_blank" href="images/firefighter.jpg">
-    <img src="images/firefighter.jpg" alt="firefighter" width="300" height="200">
+  <a target="_blank" href="img/firefighter.jpg">
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/firefighter.jpg" alt="firefighter" width="300" height="200">
+  <!-- The mouseover and mouseout function was added to this line of code to link to the javascript that will 
+  allow the small image to enlarge in size when the mouse course enters the thumbnail on the page.  When the 
+  mouse courser exits the thumbnail the enlarged image with go back to the original size. -->
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">A tired female firefighter rests after a longs days work.</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="images/work.jpg">
-    <img src="images/work.jpg" alt="work" width="300" height="200">
+  <a target="_blank" href="img/work.jpg">
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/work.jpg" alt="work" width="300px" height="200px">
+    <!-- The mouseover and mouseout function was added to this line of code to link to the javascript that will 
+  allow the small image to enlarge in size when the mouse course enters the thumbnail on the page.  When the 
+  mouse courser exits the thumbnail the enlarged image with go back to the original size. -->
+  
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">Working together can be a fullfilling way to complete a task.</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="images/silhouette.jpg">
-    <img src="images/silhouette.jpg" alt="silhouette" width="300" height="200">
+  <a target="_blank" href="img/silhouette.jpg">
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/silhouette.jpg" alt="silhouette" width="300px" height="200px">
+    <!-- The mouseover and mouseout function was added to this line of code to link to the javascript that will 
+    allow the small image to enlarge in size when the mouse course enters the thumbnail on the page.  When the 
+    mouse courser exits the thumbnail the enlarged image with go back to the original size. -->
+    
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">A group of friends can make any job, task, or event a wonderful expierence.</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="images/event.jpg">
-    <img src="images/event.jpg" alt="event" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
+  <a target="_blank" href="img/event.jpg">
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/event.jpg" alt="event" width="300px" height="200px">
+    <!-- The mouseover and mouseout function was added to this line of code to link to the javascript that will 
+    allow the small image to enlarge in size when the mouse course enters the thumbnail on the page.  When the 
+    mouse courser exits the thumbnail the enlarged image with go back to the original size. -->
+    
+    </a>
+  <div class="desc">Taking out time to enjoy with others makes for a great day.</div>
 </div>
 
-    </section>
-
-
+     </section>
 
     <footer>This events site is for IT-FP3215 tasks.
     </footer>

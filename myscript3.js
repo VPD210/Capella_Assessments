@@ -104,3 +104,17 @@ function bannerloop() {
         bannerstatus = 1;
     }
 }
+
+*//This function takes the orginal image and enlarges it when the mouse
+*//enters the thumbnail.
+function bigImg(x) {
+    x.style.height = "400px";
+    x.style.width = "600px";
+}
+
+*//This functions takes the enlarged image and returns it back to the orginal thumbnail
+*//after the mouse leaves the thumbnail.
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "300px";
+}
