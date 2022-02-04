@@ -183,3 +183,15 @@ div.desc {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
